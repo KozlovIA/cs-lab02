@@ -18,6 +18,13 @@ cout << "A + B = " << a + b << '\n'
       }
       else {
         max=b;
+           int min;
+      if (a>b)
+      {
+          min=a;
+      }
+      else {
+        min=b;
       }
     return 0;
 }
